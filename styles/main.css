@@ -9,6 +9,10 @@
     max-width: 300px;
     width: 100%;
 }
+.services-img{
+    max-width: 250px;
+    width: 100%;
+}
 button:focus{
     outline: none !important;
 }
