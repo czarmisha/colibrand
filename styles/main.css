@@ -5,6 +5,23 @@
     list-style: none;
     text-decoration: none;
 }
+.phone_me{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    z-index: 155;
+    color: white;
+    animation: pulse 2s infinite;
+}
+.phone_me:hover{
+    color: white;
+}
 .team-img{
     max-width: 300px;
     width: 100%;
@@ -186,10 +203,24 @@ h1{
     font-family: 'Futura_Boo';
     color: #000;
     margin-bottom: 10px;
+    text-align: left;
+    width: 100%;
 }
 
 
 
+
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
 
 
 /* MEDIA */
