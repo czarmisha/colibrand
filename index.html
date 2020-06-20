@@ -18,8 +18,8 @@
 
 <body>
     <a href="tel:12312312" class="d-flex phone_me"><span><i class="fas fa-phone"></i></span></a>
-    <nav class="navbar navbar-expand-lg" id="nav">
-        <a class="navbar-brand" href="#"><img src="images/logo-4.png" alt="" height="60px" width="100px"></a>
+    <nav class="navbar navbar-expand-xl" id="nav">
+        <a class="navbar-brand" href="#"><img src="images/logo-4.png" alt="" height="50px" width="120px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
@@ -59,7 +59,7 @@
         </div>
         <div class="section about" id="section1">
             <div class="container-fluid">
-                <h2 class="text-center">О НАС</h2>
+                <h2 class="">О НАС</h2>
                 <div class="row justify-content-center">
                     <div class="col-12 d-flex flex-column align-items-center">
                         <div class="about-card d-flex flex-column align-items-start">
@@ -116,12 +116,37 @@
         </div>
         <div class="section why" id="section3">
             <div class="container d-flex flex-column align-items-center">
-                <h3>ПОЧЕМУ МЫ</h3>
+                <h3 class="w-100">ПОЧЕМУ МЫ</h3>
                 <p><span><i class="fas fa-money-check"></i></span> Самые низкие цены</p>
                 <p><span><i class="fas fa-users"></i></span> Профессиональная команда</p>
                 <p><span><i class="far fa-edit"></i></span> Индвидидуальный подход</p>
                 <p><span><i class="fas fa-briefcase"></i></span> Большой опыт работы</p>
                 <img src="images/why.png" alt="" class="d-block d-md-none why-img">
+            </div>
+        </div>
+        <div class="section contact" id="section4">
+            <div class="container d-flex flex-column align-items-center">
+                <h3 class="">ОСТАВЬТЕ ЗАЯВКУ</h3>
+                <p>Оставьте заявку и мы обязательно с вами свяжемся</p>
+                <form>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputName">Имя</label>
+                        <input type="text" class="form-control" id="inputName" name="name">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputTel">Телефон</label>
+                        <input type="text" class="form-control" id="inputTel" name="tel">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputMess">Сообщение</label>
+                      <textarea name="message" id="inputMess" cols="30" rows="4" class="form-control"></textarea>
+                      <!-- <input type="text" class="form-control" id="inputMess" placeholder="Хочу закать СММ продвижение..." name="message"> -->
+                    </div>                                                        
+                    <button type="submit" class="">Отправить</button>
+                  </form>
+                <!-- <img src="images/why.png" alt="" class="d-block d-md-none why-img"> -->
             </div>
         </div>
     </div>

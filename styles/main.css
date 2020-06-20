@@ -10,8 +10,8 @@
     right: 10px;
     bottom: 10px;
     background-color: green;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
@@ -134,6 +134,9 @@ h1{
 #section3{
     background: #f84d19 url(../images/why.png)no-repeat 90% center;
 }
+#section4{
+    background: #2092ce;
+}
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
     background: #fff;
@@ -215,9 +218,62 @@ h1{
     text-align: left;
     width: 100%;
 }
-
-
-
+.contact h3{
+    font-size: 40px;
+    font-family: 'Futura_Bold';
+    color: #000;
+    margin-bottom: 30px;
+}
+.contact p{
+    font-size: 22px;
+    font-family: 'Futura_Boo';
+    color: #000;
+    margin-bottom: 20px;
+}
+.contact label{
+    font-size: 20px;
+    font-family: 'Futura_Boo';
+    color: #000;
+    margin-bottom: 10px;
+}
+.contact form{
+    /* background: rgba(255, 255, 255, 0.185); */
+    padding: 30px;
+    border-radius: 15px;
+    background: linear-gradient(225deg, #229cdc, #1d83b9);
+    box-shadow:  -7px 7px 31px #145d84, 
+                 7px -7px 31px #2cc7ff;
+}
+.contact textarea{
+    resize: none;
+}
+.contact button{
+    font-size: 20px;
+    font-family: 'Futura_Boo';
+    color: #000;
+    display: block;
+    padding: 8px 25px;
+    background: linear-gradient(225deg, #229cdc, #1d83b9);
+    box-shadow:  -8px 8px 10px #1a78a9, 
+                 8px -8px 10px #26acf3;
+    border: none;
+}
+.contact button:hover{
+    background: #2092ce;
+    box-shadow: inset -8px 8px 10px #1a78a9, 
+                inset 8px -8px 10px #26acf3;
+}
+.contact input,
+.contact textarea{
+    font-family: 'Futura_Boo';
+    /* background-color: #3b97c9; */
+    padding: 8px 25px;
+    border: none;
+    border-radius: 6px;
+    background: #2092ce;
+    box-shadow: inset -8px 8px 10px #1a78a9, 
+                inset 8px -8px 10px #26acf3;
+}
 
 @keyframes pulse{
     0%{
@@ -310,7 +366,7 @@ h1{
     h2,h3{
         font-size: 23px !important;
     }
-    p,a{
+    p,a,label{
         font-size: 18px !important;
     }
     .slide-wrapper a {
