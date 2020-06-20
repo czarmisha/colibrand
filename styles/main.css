@@ -5,6 +5,10 @@
     list-style: none;
     text-decoration: none;
 }
+.team-img{
+    max-width: 300px;
+    width: 100%;
+}
 button:focus{
     outline: none !important;
 }
@@ -16,7 +20,7 @@ button:focus{
 .navbar-toggler-icon{
     width: auto;
     height: auto;
-    font-size: 22px;
+    font-size: 25px;
 }
 body{
     scroll-behavior: smooth;
