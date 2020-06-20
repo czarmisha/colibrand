@@ -30,6 +30,15 @@
     max-width: 250px;
     width: 100%;
 }
+.why-img{
+    max-width: 180px;
+    width: 100%;
+    margin-top: 30px;
+}
+.about-img{
+    max-width: 210px;
+    width: 100%;
+}
 button:focus{
     outline: none !important;
 }
