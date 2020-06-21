@@ -146,7 +146,9 @@ h1{
     background: #f84d19 url(../images/why.png)no-repeat 90% center;
 }
 #section4{
-    background: #2092ce;
+    /* background: #2092ce;
+     */
+     background: #1c1c1c;
 }
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
@@ -257,6 +259,9 @@ h1{
                  background: #2092ce;
 box-shadow:  20px 20px 60px #1b7caf, 
              -20px -20px 60px #25a8ed;
+             background: #1c1c1c;
+box-shadow:  8px 8px 12px #141414, 
+             -8px -8px 12px #242424;
 }
 .contact textarea{
     resize: none;
@@ -273,6 +278,10 @@ box-shadow:  20px 20px 60px #1b7caf,
                  background: linear-gradient(145deg, #229cdc, #1d83b9);
 box-shadow:  20px 20px 60px #1b7caf, 
              -20px -20px 60px #25a8ed;
+             background: linear-gradient(145deg, #1e1e1e, #191919);
+box-shadow:  8px 8px 12px #141414, 
+             -8px -8px 12px #242424;
+             border-radius: 6px;
     border: none;
 }
 .contact button:hover{
@@ -282,6 +291,9 @@ box-shadow:  20px 20px 60px #1b7caf,
                 background: linear-gradient(145deg, #1d83b9, #229cdc);
 box-shadow:  20px 20px 60px #1b7caf, 
              -20px -20px 60px #25a8ed;
+             background: linear-gradient(145deg, #191919, #1e1e1e);
+box-shadow:  8px 8px 12px #141414, 
+             -8px -8px 12px #242424;
 }
 .contact input,
 .contact textarea{
@@ -296,6 +308,9 @@ box-shadow:  20px 20px 60px #1b7caf,
                 background: #2092ce;
 box-shadow: inset 20px 20px 60px #1b7caf, 
             inset -20px -20px 60px #25a8ed;
+            background: #1c1c1c;
+box-shadow: inset 8px 8px 12px #141414, 
+            inset -8px -8px 12px #242424;
 }
 
 @keyframes pulse{
