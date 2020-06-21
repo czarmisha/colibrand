@@ -142,7 +142,7 @@ h1 {
 }
 
 #section1 {
-    background: #ff00196e url(../images/about.png)no-repeat 90% center;
+    background: #d20015c2 url(../images/about.png)no-repeat 90% center;
 }
 
 #section2 {
@@ -183,12 +183,11 @@ h1 {
     font-size: 40px;
     font-family: 'Futura_Bold';
     color: #000;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 
 .about-card {
     color: #000;
-    padding: 15px;
     font-family: 'Futura_Boo';
 }
 
@@ -227,6 +226,21 @@ h1 {
     border: 1px solid #000;
     border-radius: 3px;
     transition: ease-in 0.3s;
+}
+.btn-about {
+    font-size: 20px;
+    font-family: 'Futura_Boo';
+    color: #000;
+    display: block;
+    padding: 15px 40px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    transition: ease-in 0.3s;
+}
+.btn-about:hover {
+    color: #fff;
+    border: 1px solid #000;
+    background-color: #000;
 }
 
 .slide-wrapper a:hover {
@@ -291,10 +305,8 @@ h1 {
 .contact form {
     padding: 30px;
     border-radius: 15px;
-    background: #2092ce;
-    box-shadow: 20px 20px 60px #1b7caf, -20px -20px 60px #25a8ed;
     background: #1c1c1c;
-    box-shadow: 8px 8px 12px #141414, -8px -8px 12px #242424;
+    box-shadow: 13px 13px 20px #141414, -13px -13px 20px #242424;
 }
 
 .contact textarea {
@@ -307,17 +319,15 @@ h1 {
     color: #fff;
     display: block;
     padding: 8px 25px;
-    background: linear-gradient(145deg, #229cdc, #1d83b9);
-    box-shadow: 20px 20px 60px #1b7caf, -20px -20px 60px #25a8ed;
     background: linear-gradient(145deg, #1e1e1e, #191919);
-    box-shadow: 8px 8px 12px #141414, -8px -8px 12px #242424;
+    box-shadow: 8px 8px 8px #141414, -8px -8px 8px #242424;
     border-radius: 6px;
     border: none;
 }
 
 .contact button:hover {
     background: #1c1c1c;
-    box-shadow: inset 8px 8px 12px #141414, inset -8px -8px 12px #242424;
+    box-shadow: inset 8px 8px 8px #141414, inset -8px -8px 8px #242424;
 }
 
 .contact input, .contact textarea {
@@ -326,14 +336,14 @@ h1 {
     border: none;
     background: #1c1c1c;
     border-radius: 6px;
-    box-shadow: inset 8px 8px 12px #141414, inset -8px -8px 12px #242424;
+    box-shadow: inset 8px 8px 8px #141414, inset -8px -8px 8px #242424;
 }
 .contact input:focus, .contact textarea:focus{
     color: white;
     border: none;
     background: #1c1c1c;
     border-radius: 6px;
-    box-shadow: inset 8px 8px 12px #141414, inset -8px -8px 12px #242424;
+    box-shadow: inset 8px 8px 8px #141414, inset -8px -8px 8px #242424;
     outline: none;
 }
 
@@ -395,7 +405,7 @@ h1 {
         background: #57027b;
     }
     #section1 {
-        background: #ff00196e;
+        background: #d20015c2;
     }
     #section2 {
         background: #f0b317;
@@ -439,6 +449,9 @@ h1 {
         font-size: 19px !important;
     }
     .slide-wrapper a {
+        padding: 8px 25px;
+    }
+    .btn-about {
         padding: 8px 25px;
     }
 }
