@@ -24,7 +24,7 @@ button:focus{
 .navbar-toggler-icon{
     width: auto;
     height: auto;
-    font-size: 25px;
+    font-size: 27px;
 }
 body{
     scroll-behavior: smooth;
@@ -120,3 +120,16 @@ a:hover{
      width: 70%;
      text-align: center;
  }
+
+
+ @media (max-width:1200px){
+    .navbar-toggler-icon{
+        color: white;
+    }
+    .contact h2,
+    .contact p,
+    .contact a,
+    .contact h3{
+        color: #fff;
+    }
+}

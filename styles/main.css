@@ -50,7 +50,7 @@ button:focus{
 .navbar-toggler-icon{
     width: auto;
     height: auto;
-    font-size: 25px;
+    font-size: 27px;
 }
 body{
     scroll-behavior: smooth;
@@ -120,11 +120,11 @@ h1{
 }
 
 #section0{
-    background: #8a1bb9 url(../images/team.png)no-repeat 90% center;
+    background: #57027b url(../images/team.png)no-repeat 90% center;
 }
 
 #section1{
-    background: #e43f2f url(../images/about.png)no-repeat 90% center;
+    background: #ff00196e url(../images/about.png)no-repeat 90% center;
 }
 
 #section2{
@@ -143,7 +143,7 @@ h1{
     background: url(../images/sites.png)no-repeat 90% center;
 }
 #section3{
-    background: #f84d19 url(../images/why.png)no-repeat 90% center;
+    background: #a0b0ce url(../images/why.png)no-repeat 90% center;
 }
 #section4{
     /* background: #2092ce;
@@ -328,6 +328,15 @@ box-shadow: inset 8px 8px 12px #141414,
 
 /* MEDIA */
 @media (max-width:1200px){
+    .navbar-toggler-icon{
+        color: white;
+    }
+    .contact h2,
+    .contact p,
+    .contact a,
+    .contact h3{
+        color: #fff;
+    }
     h1{
         font-size: 35px;
     }
@@ -364,11 +373,11 @@ box-shadow: inset 8px 8px 12px #141414,
 }
 @media (max-width:768px){
     #section0{
-        background: #8a1bb9;
+        background: #57027b;
     }
     
     #section1{
-        background: #e43f2f;
+        background: #ff00196e;
     }
     
     #section2{
@@ -387,7 +396,7 @@ box-shadow: inset 8px 8px 12px #141414,
         background: none;
     }
     #section3{
-        background: #f84d19;
+        background: #a0b0ce;
     }
     .about-card p{
         width: 100%;
