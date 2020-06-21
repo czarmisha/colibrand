@@ -103,6 +103,9 @@ a:hover{
  .human-job{
      font-size: 14px;
  }
+ .human-box{
+     margin-bottom: 20px;
+ }
  footer{
      padding: 20px 0;
      background: white;
