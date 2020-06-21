@@ -75,6 +75,17 @@ a:hover{
     background: rgba(255, 255, 255, 0.212);
     border-radius: 10px;
     margin: 0 10px;
+
+}
+.dropdown-menu{
+    border: none;
+}
+.dropdown-item{
+    background: transparent;
+    color: #000;
+    font-family: 'Futura_Bold';
+    font-size: 18px;
+    padding: 15px 10px;
 }
 .nav-item .nav-link{
     color: #000;
@@ -311,13 +322,17 @@ h1{
     }
     .navbar-nav{
         align-items: center;
+
     }
     .social-nav{
-        justify-content: center;
+        /* justify-content: center; */
         padding: 15px 0;
     }
     .nav-item{
         margin: 15px 0;
+        width: 100%;
+        padding-left: 20px;
+        /* text-align: center; */
     }
 }
 @media (max-width:768px){
@@ -360,14 +375,14 @@ h1{
 }
 @media (max-width:576px){
     h1{
-        font-size: 26px;
+        font-size: 27px;
         width: 90%;
     }
     h2,h3{
-        font-size: 23px !important;
+        font-size: 24px !important;
     }
     p,a,label{
-        font-size: 18px !important;
+        font-size: 19px !important;
     }
     .slide-wrapper a {
         padding: 8px 25px;
