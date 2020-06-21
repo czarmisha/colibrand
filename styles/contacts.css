@@ -91,20 +91,6 @@ a:hover {
     background: rgba(255, 255, 255, 0.295);
 }
 
-.human-img img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-}
-.human-img{
-    position: absolute;
-    top: -50px;
-}
-
-.header-content {
-    padding: 40px 0;
-}
-
 section {
     padding: 40px 0;
 }
@@ -122,41 +108,102 @@ p, a {
     font-family: 'Futura_Boo';
 }
 
-.human-job {
-    font-size: 14px;
-    margin-top: 10px;
-}
-
-.human-box {
-    margin-bottom: 80px;
-    background: white;
-    padding: 180px 15px 15px 15px;
-    position: relative;
-}
-
 footer {
     padding: 20px 0;
     background: white;
 }
 
+.contact-info {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 20px;
+    color: #f7786a;
+    margin-bottom: 12px;
+}
+
+.contact-info a:hover {
+    color: rgba(18, 18, 18, 0.678);
+}
+
+.contact-form h3 {
+    font-size: 40px;
+    font-family: 'Futura_Bold';
+    color: #f7786a;
+    margin-bottom: 30px;
+}
+
+.contact-form p {
+    font-size: 22px;
+    font-family: 'Futura_Boo';
+    color: #f7786a;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    font-size: 20px;
+    font-family: 'Futura_Boo';
+    color: #f7786a;
+    margin-bottom: 10px;
+}
+
 body {
-    background: #f1f1f1;
+    background: #ecf0f3;
 }
 
-.about-us {
-    background: white;
+.contact-form form {
+    padding: 30px;
+    border-radius: 15px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
 }
 
-.header-content p {
-    width: 70%;
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form button {
+    font-size: 20px;
+    font-family: 'Futura_Boo';
+    color: #fff;
+    display: block;
     text-align: center;
+    background: #f7786a;
+    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+    transition: 0.5s;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background:#fd897c;
+}
+
+.contact-form input, .contact-form textarea {
+    font-family: 'Futura_Boo';
+    color: #f7786a;
+    border: none;
+    outline:none;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+}
+.form-control:focus {
+    color: #f7786a;
+    border: none;
+    outline:none;
+    background: none;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
 }
 
 @media (max-width:1200px) {
-
-    .contact h2, .contact p, .contact a, .contact h3 {
-        color: #fff;
-    }
     .navbar-collapse {
         width: 100%;
         margin: 0 -16px;

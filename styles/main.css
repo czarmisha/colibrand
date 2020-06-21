@@ -1,11 +1,12 @@
 @import 'fonts.css';
-*{
+* {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
 }
-.phone_me{
+
+.phone_me {
     position: fixed;
     right: 10px;
     bottom: 10px;
@@ -19,46 +20,57 @@
     color: white;
     animation: pulse 2s infinite;
 }
-.phone_me:hover{
+
+.phone_me:hover {
     color: white;
 }
-.team-img{
+
+.team-img {
     max-width: 300px;
     width: 100%;
 }
-.services-img{
+
+.services-img {
     max-width: 250px;
     width: 100%;
 }
-.why-img{
+
+.why-img {
     max-width: 180px;
     width: 100%;
     margin-top: 30px;
 }
-.about-img{
+
+.about-img {
     max-width: 210px;
     width: 100%;
 }
-button:focus{
+
+button:focus {
     outline: none !important;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     background: rgba(255, 255, 255, 0.212) !important;
     border-radius: 10px !important;
     padding: 3px 5px;
 }
-.navbar-toggler-icon{
+
+.navbar-toggler-icon {
     width: auto;
     height: auto;
     font-size: 27px;
 }
-body{
+
+body {
     scroll-behavior: smooth;
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
 }
-.navbar{
+
+.navbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -67,38 +79,44 @@ a:hover{
     /* padding: 30px 15px; #8a1bb9  #e43f2f  #f0b317*/
     /* background-color: white; */
 }
-.navbar-brand{
+
+.navbar-brand {
     padding: 0;
 }
-.nav-item{
+
+.nav-item {
     padding: 5px 15px;
     background: rgba(255, 255, 255, 0.212);
     border-radius: 10px;
     margin: 0 10px;
-
 }
-.dropdown-menu{
+
+.dropdown-menu {
     border: none;
 }
-.dropdown-item{
+
+.dropdown-item {
     background: transparent;
     color: #000;
     font-family: 'Futura_Bold';
     font-size: 18px;
     padding: 15px 10px;
 }
-.nav-item .nav-link{
+
+.nav-item .nav-link {
     color: #000;
     font-family: 'Futura_Bold';
     font-size: 18px;
     padding: 0 !important;
     /* border-bottom: 2px solid transparent; */
 }
-.nav-item:hover{
+
+.nav-item:hover {
     /* border-bottom: 2px solid #e43f2f; */
     background: rgba(255, 255, 255, 0.295);
 }
-.social-nav a{
+
+.social-nav a {
     padding: 5px 12px;
     font-size: 20px;
     color: #000;
@@ -106,90 +124,101 @@ a:hover{
     border-radius: 6px;
     margin: 0 10px;
 }
-.social-nav a:hover{
+
+.social-nav a:hover {
     background: rgba(255, 255, 255, 0.295);
 }
 
-
-h1{
+h1 {
     font-size: 50px;
     font-family: 'Futura_Bold';
     color: #fff;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
-#section0{
+#section0 {
     background: #57027b url(../images/team.png)no-repeat 90% center;
 }
 
-#section1{
+#section1 {
     background: #ff00196e url(../images/about.png)no-repeat 90% center;
 }
 
-#section2{
+#section2 {
     background: #f0b317;
 }
-#slide1{
+
+#slide1 {
     background: url(../images/design.png)no-repeat 90% center;
 }
-#slide2{
+
+#slide2 {
     background: url(../images/smm.png)no-repeat 90% center;
 }
-#slide3{
+
+#slide3 {
     background: url(../images/seo.png)no-repeat 90% center;
 }
-#slide4{
+
+#slide4 {
     background: url(../images/sites.png)no-repeat 90% center;
 }
-#section3{
+
+#section3 {
     background: #a0b0ce url(../images/why.png)no-repeat 90% center;
 }
-#section4{
+
+#section4 {
     /* background: #2092ce;
      */
-     background: #1c1c1c;
+    background: #1c1c1c;
 }
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
     background: #fff;
 }
 
-.about h2{
+.about h2 {
     font-size: 40px;
     font-family: 'Futura_Bold';
     color: #000;
     margin-bottom: 70px;
 }
-.about-card{
+
+.about-card {
     color: #000;
     padding: 15px;
     font-family: 'Futura_Boo';
 }
-.about-card h3{
+
+.about-card h3 {
     font-size: 30px;
     color: #000;
     font-family: 'Futura_Bold';
 }
-.about-card p{
+
+.about-card p {
     font-size: 22px;
     width: 68%;
     color: #000;
 }
 
-.services h2{
+.services h2 {
     font-size: 40px;
     font-family: 'Futura_Bold';
     color: #000;
     margin-bottom: 30px;
     text-align: center;
 }
-.slide-wrapper img{
+
+.slide-wrapper img {
     max-height: 60px;
     width: auto;
     margin-bottom: 30px;
 }
-.slide-wrapper a{
+
+.slide-wrapper a {
     font-size: 20px;
     font-family: 'Futura_Boo';
     color: #000;
@@ -199,31 +228,37 @@ h1{
     border-radius: 3px;
     transition: ease-in 0.3s;
 }
-.slide-wrapper a:hover{
+
+.slide-wrapper a:hover {
     color: #fff;
     border: 1px solid #000;
     background-color: #000;
 }
-.slide-wrapper p{
+
+.slide-wrapper p {
     font-size: 20px;
     font-family: 'Futura_Boo';
     color: #000;
     margin-bottom: 30px;
     width: 70%;
 }
-.fp-slidesNav{
+
+.fp-slidesNav {
     text-align: center;
 }
-.why h3{
+
+.why h3 {
     font-size: 40px;
     font-family: 'Futura_Bold';
     color: #000;
     margin-bottom: 30px;
 }
-.why p span{
+
+.why p span {
     margin-right: 15px;
 }
-.why p{
+
+.why p {
     font-size: 22px;
     font-family: 'Futura_Boo';
     color: #000;
@@ -231,193 +266,176 @@ h1{
     text-align: left;
     width: 100%;
 }
-.contact h3{
+
+.contact h3 {
     font-size: 40px;
     font-family: 'Futura_Bold';
     color: #fff;
     margin-bottom: 30px;
 }
-.contact p{
+
+.contact p {
     font-size: 22px;
     font-family: 'Futura_Boo';
     color: #fff;
     margin-bottom: 20px;
 }
-.contact label{
+
+.contact label {
     font-size: 20px;
     font-family: 'Futura_Boo';
     color: #fff;
     margin-bottom: 10px;
 }
-.contact form{
-    /* background: rgba(255, 255, 255, 0.185); */
+
+.contact form {
     padding: 30px;
     border-radius: 15px;
-    /* background: linear-gradient(225deg, #229cdc, #1d83b9);
-    box-shadow:  -7px 7px 31px #145d84, 
-                 7px -7px 31px #2cc7ff; */
-                 background: #2092ce;
-box-shadow:  20px 20px 60px #1b7caf, 
-             -20px -20px 60px #25a8ed;
-             background: #1c1c1c;
-box-shadow:  8px 8px 12px #141414, 
-             -8px -8px 12px #242424;
+    background: #2092ce;
+    box-shadow: 20px 20px 60px #1b7caf, -20px -20px 60px #25a8ed;
+    background: #1c1c1c;
+    box-shadow: 8px 8px 12px #141414, -8px -8px 12px #242424;
 }
-.contact textarea{
+
+.contact textarea {
     resize: none;
 }
-.contact button{
+
+.contact button {
     font-size: 20px;
     font-family: 'Futura_Boo';
     color: #fff;
     display: block;
     padding: 8px 25px;
-    /* background: linear-gradient(225deg, #229cdc, #1d83b9);
-    box-shadow:  -8px 8px 10px #1a78a9, 
-                 8px -8px 10px #26acf3; */
-                 background: linear-gradient(145deg, #229cdc, #1d83b9);
-box-shadow:  20px 20px 60px #1b7caf, 
-             -20px -20px 60px #25a8ed;
-             background: linear-gradient(145deg, #1e1e1e, #191919);
-box-shadow:  8px 8px 12px #141414, 
-             -8px -8px 12px #242424;
-             border-radius: 6px;
+    background: linear-gradient(145deg, #229cdc, #1d83b9);
+    box-shadow: 20px 20px 60px #1b7caf, -20px -20px 60px #25a8ed;
+    background: linear-gradient(145deg, #1e1e1e, #191919);
+    box-shadow: 8px 8px 12px #141414, -8px -8px 12px #242424;
+    border-radius: 6px;
     border: none;
 }
-.contact button:hover{
-    /* background: #2092ce; */
-    /* box-shadow: inset -8px 8px 10px #1a78a9, 
-                inset 8px -8px 10px #26acf3; */
-                background: linear-gradient(145deg, #1d83b9, #229cdc);
-box-shadow:  20px 20px 60px #1b7caf, 
-             -20px -20px 60px #25a8ed;
-             background: linear-gradient(145deg, #191919, #1e1e1e);
-box-shadow:  8px 8px 12px #141414, 
-             -8px -8px 12px #242424;
+
+.contact button:hover {
+    background: #1c1c1c;
+    box-shadow: inset 8px 8px 12px #141414, inset -8px -8px 12px #242424;
 }
-.contact input,
-.contact textarea{
+
+.contact input, .contact textarea {
     font-family: 'Futura_Boo';
-    /* background-color: #3b97c9; */
     padding: 8px 25px;
     border: none;
+    background: #1c1c1c;
     border-radius: 6px;
-    /* background: #2092ce;
-    box-shadow: inset -8px 8px 10px #1a78a9, 
-                inset 8px -8px 10px #26acf3; */
-                background: #2092ce;
-box-shadow: inset 20px 20px 60px #1b7caf, 
-            inset -20px -20px 60px #25a8ed;
-            background: #1c1c1c;
-box-shadow: inset 8px 8px 12px #141414, 
-            inset -8px -8px 12px #242424;
+    box-shadow: inset 8px 8px 12px #141414, inset -8px -8px 12px #242424;
+}
+.contact input:focus, .contact textarea:focus{
+    color: white;
+    border: none;
+    background: #1c1c1c;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 12px #141414, inset -8px -8px 12px #242424;
+    outline: none;
 }
 
-@keyframes pulse{
-    0%{
+@keyframes pulse {
+    0% {
         transform: scale(1);
     }
-    50%{
+    50% {
         transform: scale(1.2);
     }
-    100%{
+    100% {
         transform: scale(1);
     }
 }
 
-
 /* MEDIA */
-@media (max-width:1200px){
-    .navbar-toggler-icon{
+
+@media (max-width:1200px) {
+    .navbar-toggler-icon {
         color: white;
     }
-    .contact h2,
-    .contact p,
-    .contact a,
-    .contact h3{
+    .contact h2, .contact p, .contact a, .contact h3 {
         color: #fff;
     }
-    h1{
+    h1 {
         font-size: 35px;
     }
-    .about-card p{
+    .about-card p {
         width: 50%;
     }
-    .about h2{
+    .about h2 {
         padding-top: 20px;
         margin-bottom: 30px;
         font-size: 35px;
     }
-    .slide-wrapper p{
+    .slide-wrapper p {
         width: 60%;
     }
-    .navbar-collapse{
+    .navbar-collapse {
         width: 100%;
         margin: 0 -16px;
         background: #fff;
     }
-    .navbar-nav{
+    .navbar-nav {
         align-items: center;
-
     }
-    .social-nav{
-        /* justify-content: center; */
+    .social-nav {
         padding: 15px 0;
     }
-    .nav-item{
+    .nav-item {
         margin: 15px 0;
         width: 100%;
         padding-left: 20px;
-        /* text-align: center; */
     }
 }
-@media (max-width:768px){
-    #section0{
+
+@media (max-width:768px) {
+    #section0 {
         background: #57027b;
     }
-    
-    #section1{
+    #section1 {
         background: #ff00196e;
     }
-    
-    #section2{
+    #section2 {
         background: #f0b317;
     }
-    #slide1{
+    #slide1 {
         background: none;
     }
-    #slide2{
+    #slide2 {
         background: none;
     }
-    #slide3{
+    #slide3 {
         background: none;
     }
-    #slide4{
+    #slide4 {
         background: none;
     }
-    #section3{
+    #section3 {
         background: #a0b0ce;
     }
-    .about-card p{
+    .about-card p {
         width: 100%;
     }
-    .about h2{
+    .about h2 {
         padding-top: 20px;
         margin-bottom: 20px;
     }
-    .slide-wrapper p{
+    .slide-wrapper p {
         width: 100%;
     }
 }
-@media (max-width:576px){
-    h1{
+
+@media (max-width:576px) {
+    h1 {
         font-size: 27px;
         width: 90%;
     }
-    h2,h3{
+    h2, h3 {
         font-size: 24px !important;
     }
-    p,a,label{
+    p, a, label {
         font-size: 19px !important;
     }
     .slide-wrapper a {
