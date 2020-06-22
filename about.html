@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/about.css">
+
     <title>О нас | Colibrand</title>
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-xl" id="nav">
-            <a class="navbar-brand" href="index.html"><img src="images/logo-2.png" alt="" height="50px" width="120px"></a>
+            <a class="navbar-brand" href="index.html"><img src="images/logo-2.png" alt="" height="50px"
+                    width="120px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
@@ -63,7 +65,8 @@
         <section class="about-us">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-md-6 d-flex flex-column align-items-center justify-content-center">
+                    <div class="col-md-6 d-flex flex-column align-items-center justify-content-center wow animate__animated animate__fadeInLeft"
+                        data-wow-delay="0.3s">
                         <h2>О НАС</h2>
                         <p>Colibrand Digital Agency
                             В настоящее время, многие частные предприниматели и предприятия, стараются больше развивать
@@ -78,7 +81,8 @@
                             Agency» занимается созданием сайтов, для любого вида бизнеса и услугами по их продвижению.
                         </p>
                     </div>
-                    <div class="col-md-6 d-flex align-items-center">
+                    <div class="col-md-6 d-flex align-items-center wow animate__animated animate__fadeInRight"
+                        data-wow-delay="0.3s">
                         <img src="images/team.png" alt="" class="w-100">
                     </div>
                 </div>
@@ -86,9 +90,9 @@
         </section>
         <section class="our-team">
             <div class="container">
-                <h2 class="text-center">НАША КОМАНДА</h2>
+                <h2 class="text-center wow animate__animated animate__fadeInDown">НАША КОМАНДА</h2>
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-xs-6 col-md-4 col-lg-3">
+                    <div class="col-xs-6 col-md-4 col-lg-3 wow animate__animated animate__fadeInLeft">
                         <div class="human-box d-flex flex-column align-items-center">
                             <div class="human-img d-flex flex-column align-items-center justify-content-center">
                                 <img src="images/team-face.jpg" alt="">
@@ -101,7 +105,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
+                    <div class="col-xs-6 col-md-4 col-lg-3 wow animate__animated animate__fadeInRight">
                         <div class="human-box d-flex flex-column align-items-center">
                             <div class="human-img d-flex flex-column align-items-center justify-content-center">
                                 <img src="images/team-face.jpg" alt="">
@@ -114,7 +118,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
+                    <div class="col-xs-6 col-md-4 col-lg-3 wow animate__animated animate__fadeInLeft">
                         <div class="human-box d-flex flex-column align-items-center">
                             <div class="human-img d-flex flex-column align-items-center justify-content-center">
                                 <img src="images/team-face.jpg" alt="">
@@ -127,7 +131,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
+                    <div class="col-xs-6 col-md-4 col-lg-3 wow animate__animated animate__fadeInRight">
                         <div class="human-box d-flex flex-column align-items-center">
                             <div class="human-img d-flex flex-column align-items-center justify-content-center">
                                 <img src="images/team-face.jpg" alt="">
@@ -155,6 +159,13 @@
     <script src="bootstrap/js/popper.js"></script>
     <script src="fontawesome/js/all.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="scripts/wow.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('head').append('<link rel="stylesheet" href="styles/animate.css">');
+            new WOW().init();
+        })
+    </script>
 </body>
 
 </html>

@@ -57,7 +57,8 @@
         <section class="contact">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-lg-6 mb-3 d-flex flex-column align-items-center">
+                    <div class="col-md-4 col-lg-6 mb-3 d-flex flex-column align-items-center wow animate__animated animate__fadeInLeft"
+                    data-wow-delay="0.3s">
                         <h1 class="text-center">КОНТАКТЫ</h1>
                         <div class="contact-info">
                             <p><i class="fas fa-phone"></i> Наш телефон</p>
@@ -68,7 +69,8 @@
                             <a href="mailto:asd@asd.ru">asd@asd.ru</a>
                         </div>
                     </div>
-                    <div class="col-md-8 col-lg-6 d-flex flex-column contact-form">
+                    <div class="col-md-8 col-lg-6 d-flex flex-column contact-form wow animate__animated animate__fadeInRight"
+                    data-wow-delay="0.3s">
                         <h3 class="text-center">ОСТАВЬТЕ ЗАЯВКУ</h3>
                         <p class="w-100 text-center">Оставьте заявку и мы обязательно с вами свяжемся</p>
                         <form>
@@ -100,12 +102,19 @@
     </footer>
 
 
-
-
     <script src="bootstrap/js/jquery.js"></script>
     <script src="bootstrap/js/popper.js"></script>
     <script src="fontawesome/js/all.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="scripts/wow.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('head').append('<link rel="stylesheet" href="styles/animate.css">');
+            new WOW().init();
+        })
+    </script>
+
+   
 </body>
 
 </html>
