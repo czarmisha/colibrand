@@ -170,9 +170,7 @@ h1 {
 }
 
 #section4 {
-    /* background: #2092ce;
-     */
-    background: #1c1c1c;
+    background: #ecf0f3;
 }
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
@@ -284,29 +282,29 @@ h1 {
 .contact h3 {
     font-size: 40px;
     font-family: 'Futura_Bold';
-    color: #fff;
+    color: #f7786a;
     margin-bottom: 30px;
 }
 
 .contact p {
     font-size: 22px;
     font-family: 'Futura_Boo';
-    color: #fff;
+    color: #f7786a;
     margin-bottom: 20px;
 }
 
 .contact label {
     font-size: 20px;
     font-family: 'Futura_Boo';
-    color: #fff;
+    color: #f7786a;
     margin-bottom: 10px;
 }
 
 .contact form {
     padding: 30px;
     border-radius: 15px;
-    background: #1c1c1c;
-    box-shadow: 13px 13px 20px #141414, -13px -13px 20px #242424;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
 }
 
 .contact textarea {
@@ -318,32 +316,38 @@ h1 {
     font-family: 'Futura_Boo';
     color: #fff;
     display: block;
-    padding: 8px 25px;
-    background: linear-gradient(145deg, #1e1e1e, #191919);
-    box-shadow: 8px 8px 8px #141414, -8px -8px 8px #242424;
-    border-radius: 6px;
+    text-align: center;
+    background: #f7786a;
+    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+    transition: 0.5s;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
     border: none;
+    outline: none;
+    cursor: pointer;
 }
 
 .contact button:hover {
-    background: #1c1c1c;
-    box-shadow: inset 8px 8px 8px #141414, inset -8px -8px 8px #242424;
+    background:#fd897c;
 }
 
 .contact input, .contact textarea {
     font-family: 'Futura_Boo';
     padding: 8px 25px;
+    color: #f7786a;
     border: none;
-    background: #1c1c1c;
-    border-radius: 6px;
-    box-shadow: inset 8px 8px 8px #141414, inset -8px -8px 8px #242424;
+    outline:none;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
 }
 .contact input:focus, .contact textarea:focus{
-    color: white;
+    color: #f7786a;
     border: none;
-    background: #1c1c1c;
-    border-radius: 6px;
-    box-shadow: inset 8px 8px 8px #141414, inset -8px -8px 8px #242424;
+    background: none;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
     outline: none;
 }
 
@@ -366,7 +370,7 @@ h1 {
         color: white;
     }
     .contact h2, .contact p, .contact a, .contact h3 {
-        color: #fff;
+        color: #f7786a;
     }
     h1 {
         font-size: 35px;
