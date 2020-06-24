@@ -142,7 +142,7 @@ h1 {
 }
 
 #section1 {
-    background: #d20015c2 url(../images/about.png)no-repeat 90% center;
+    background: rgba(255, 0, 26, 0.66) url(../images/about.png)no-repeat 90% center;
 }
 
 #section2 {
@@ -225,6 +225,7 @@ h1 {
     border-radius: 3px;
     transition: ease-in 0.3s;
 }
+
 .btn-about {
     font-size: 20px;
     font-family: 'Futura_Boo';
@@ -235,6 +236,7 @@ h1 {
     border-radius: 3px;
     transition: ease-in 0.3s;
 }
+
 .btn-about:hover {
     color: #fff;
     border: 1px solid #000;
@@ -329,7 +331,7 @@ h1 {
 }
 
 .contact button:hover {
-    background:#fd897c;
+    background: #fd897c;
 }
 
 .contact input, .contact textarea {
@@ -337,12 +339,13 @@ h1 {
     padding: 8px 25px;
     color: #f7786a;
     border: none;
-    outline:none;
+    outline: none;
     background: none;
     border-radius: 25px;
     box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
 }
-.contact input:focus, .contact textarea:focus{
+
+.contact input:focus, .contact textarea:focus {
     color: #f7786a;
     border: none;
     background: none;
@@ -409,7 +412,7 @@ h1 {
         background: #57027b;
     }
     #section1 {
-        background: #d20015c2;
+        background: rgba(255, 0, 26, 0.66);
     }
     #section2 {
         background: #f0b317;
