@@ -1,8 +1,10 @@
 @font-face{
     font-family: 'Futura_Bold';
     src: url(../fonts/FuturaTOT-Bol.otf);
+    font-display: swap;
 }
 @font-face{
     font-family: 'Futura_Boo';
     src: url(../fonts/FuturaTOT-Boo.otf);
+    font-display: swap;
 }

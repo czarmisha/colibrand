@@ -4,9 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/services.css">
+    <meta name="description" content="Digital агенство. Предоставим Вам весь спектр IT услуг.">
+    <meta name="keywords"
+        content="smm, smm продвижение, смм, сео, сайты, создание сайтов, создать сайт, визитки, логотипы, флаера, баннеры, фирменный стиль">
+
+    <link rel="stylesheet" type="text/css" href="styles/fullpage.css">
+    <link rel="preload" href="fontawesome/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    </noscript>
+    <link rel="preload" href="bootstrap/css/bootstrap.min.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    </noscript>
+    <link rel="preload" href="styles/services.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="styles/services.css">
+    </noscript>
     <script src="scripts/wow.min.js"></script>
     <title>Услуги | Colibrand</title>
 </head>
@@ -212,10 +227,9 @@
 
     <script src="bootstrap/js/jquery.js"></script>
     <script src="bootstrap/js/popper.js"></script>
-    <script src="fontawesome/js/all.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
-
-    <script>
+    <script async src="scripts/wow.min.js"></script>
+    <script defer>
         $(document).ready(function () {
             $('head').append('<link rel="stylesheet" href="styles/animate.css">');
             new WOW().init();

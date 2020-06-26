@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,13 +5,26 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная | Colibrand</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="Digital агенство. Предоставим Вам весь спектр IT услуг.">
+    <meta name="keywords"
+        content="smm, smm продвижение, смм, сео, сайты, создание сайтов, создать сайт, визитки, логотипы, флаера, баннеры, фирменный стиль">
 
     <link rel="stylesheet" type="text/css" href="styles/fullpage.css">
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preload" href="fontawesome/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    </noscript>
+    <link rel="preload" href="bootstrap/css/bootstrap.min.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    </noscript>
+    <link rel="preload" href="styles/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="styles/main.css">
+    </noscript>
+    <!-- <link rel="stylesheet" href="styles/main.css"> -->
+    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
 </head>
 
 <body>
@@ -29,8 +41,9 @@
                     <a class="nav-link" href="#">Главная</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Услуги
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Услуги
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="services.html#graph-design">Графический дизайн</a>
@@ -38,7 +51,7 @@
                         <a class="dropdown-item" href="services.html#seo">SEO продвижение</a>
                         <a class="dropdown-item" href="services.html#seo">Создайние сайтов</a>
                     </div>
-                  </li>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">О нас</a>
                 </li>
@@ -73,14 +86,16 @@
                 <div class="row justify-content-center">
                     <div class="col-12 d-flex flex-column align-items-center">
                         <div class="about-card d-flex flex-column align-items-start">
-                            <p>Осуществим разработку целостной маркетинговой кампании, которая охватит все точки соприкосновения с потенциальными клиентами,
-                                начиная от создания логотипа и заканчивая формированием деловой репутации бренда или персоны и представления в социальных медиа.</p>
+                            <p>Осуществим разработку целостной маркетинговой кампании, которая охватит все точки
+                                соприкосновения с потенциальными клиентами,
+                                начиная от создания логотипа и заканчивая формированием деловой репутации бренда или
+                                персоны и представления в социальных медиа.</p>
                         </div>
                         <a class="btn-about align-self-start" href="about.html">ПОДРОБНЕЕ</a>
                         <img src="images/about.png" alt="" class="d-block d-md-none about-img">
                     </div>
                 </div>
-                
+
             </div>
         </div>
         <div class="section services" id="section2">
@@ -142,34 +157,34 @@
                 <p class="w-100 text-center">Оставьте заявку и мы обязательно с вами свяжемся</p>
                 <form action="telegram.php" method="post">
                     <div class="form-row">
-                      <div class="form-group col-md-6">
-                        <label for="inputName">Имя</label>
-                        <input type="text" class="form-control" id="inputName" name="name">
-                      </div>
-                      <div class="form-group col-md-6">
-                        <label for="inputTel">Телефон</label>
-                        <input type="text" class="form-control" id="inputTel" name="tel">
-                      </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputName">Имя</label>
+                            <input type="text" class="form-control" id="inputName" name="name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputTel">Телефон</label>
+                            <input type="text" class="form-control" id="inputTel" name="tel">
+                        </div>
                     </div>
                     <div class="form-group">
-                      <label for="inputMess">Сообщение</label>
-                      <textarea name="message" id="inputMess" cols="30" rows="3" class="form-control"></textarea>
-                      <!-- <input type="text" class="form-control" id="inputMess" placeholder="Хочу закать СММ продвижение..." name="message"> -->
-                    </div>                                                        
+                        <label for="inputMess">Сообщение</label>
+                        <textarea name="message" id="inputMess" cols="30" rows="3" class="form-control"></textarea>
+                        <!-- <input type="text" class="form-control" id="inputMess" placeholder="Хочу закать СММ продвижение..." name="message"> -->
+                    </div>
                     <button type="submit" class="">Отправить</button>
-                  </form>
+                </form>
                 <!-- <img src="images/why.png" alt="" class="d-block d-md-none why-img"> -->
             </div>
         </div>
     </div>
-    
+
     <script src="bootstrap/js/jquery.js"></script>
     <script src="bootstrap/js/popper.js"></script>
-    <script src="fontawesome/js/all.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="scripts/fullpage.js"></script>
+    <!-- <script async src="fontawesome/js/all.min.js"></script> -->
 
-    <script type="text/javascript">
+    <script defer type="text/javascript">
         var myFullpage = new fullpage('#fullpage', {
             navigation: true,
             slidesNavigation: true,
@@ -181,7 +196,7 @@
         });
     </script>
 
-    
+
 </body>
 
 </html>

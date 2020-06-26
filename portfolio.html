@@ -4,9 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/portfolio.css">
+    <meta name="description" content="Digital агенство. Предоставим Вам весь спектр IT услуг.">
+    <meta name="keywords"
+        content="smm, smm продвижение, смм, сео, сайты, создание сайтов, создать сайт, визитки, логотипы, флаера, баннеры, фирменный стиль">
+
+    <link rel="stylesheet" type="text/css" href="styles/fullpage.css">
+    <link rel="preload" href="fontawesome/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    </noscript>
+    <link rel="preload" href="bootstrap/css/bootstrap.min.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    </noscript>
+    <link rel="preload" href="styles/portfolio.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="styles/portfolio.css">
+    </noscript>
     <!-- <script src="scripts/wow.min.js"></script> -->
     <title>Портфолио | Colibrand</title>
 </head>
@@ -57,365 +72,519 @@
     </header>
 
     <main>
-        <section class="portfolio-design">
-            <div class="container">
-                <h2>Примеры работ графического дизайна</h2>
-                <div class="row">
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/Log-portfolio/brush blow.jpg" class="w-100" alt="">
-                            <h3>Логотип</h3>
+        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                    aria-controls="pills-home" aria-selected="true">Графический дизайн</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                    aria-controls="pills-profile" aria-selected="false">SMM</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+                    aria-controls="pills-contact" aria-selected="false">Видеоролики</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <section class="portfolio-design">
+                    <div class="container">
+                        <h2>Примеры работ графического дизайна</h2>
+                        <div class="row">
+                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                    <img src="images/Log-portfolio/brush blow.jpg" class="w-100" alt="">
+                                    <h3>Логотип</h3>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                    <img src="images/Log-portfolio/chef-fish.jpg" class="w-100" alt="">
+                                    <h3>Логотип</h3>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                    <img src="images/Log-portfolio/design illustration t-shirt.jpg" class="w-100"
+                                        alt="">
+                                    <h3>Логотип</h3>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                    <img src="images/Log-portfolio/Edge windows new 1.jpg" class="w-100" alt="">
+                                    <h3>Логотип</h3>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                    <img src="images/Log-portfolio/EDGE-windows-logo-bag.jpg" class="w-100" alt="">
+                                    <h3>Логотип</h3>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                    <img src="images/Log-portfolio/Embroidered-Logo-MockUp.jpg" class="w-100" alt="">
+                                    <h3>Логотип</h3>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                    <img src="images/Log-portfolio/Embroidered-Logo-MockUp.png" class="w-100" alt="">
+                                    <h3>Логотип</h3>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                    <img src="images/Log-portfolio/Embroidered-Logo-MockUp.png1.png" class="w-100"
+                                        alt="">
+                                    <h3>Логотип</h3>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                    <img src="images/Log-portfolio/f_57056a6003e7434f.jpg" class="w-100" alt="">
+                                    <h3>Логотип</h3>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                    <img src="images/Log-portfolio/flambir.jpg" class="w-100" alt="">
+                                    <h3>Логотип</h3>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                    <img src="images/Log-portfolio/joker logo.jpg" class="w-100" alt="">
+                                    <h3>Логотип</h3>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                    <img src="images/Log-portfolio/Konstorg logo.jpg" class="w-100" alt="">
+                                    <h3>Логотип</h3>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                    <img src="images/Portfolio-Firminiy-stil/firminniy-stil.1.png" class="w-100" alt="">
+                                    <h3>Фирменный стиль</h3>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                    <img src="images/Portfolio-Firminiy-stil/firmen.stil.2.png" class="w-100" alt="">
+                                    <h3>Фирменный стиль</h3>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/Log-portfolio/chef-fish.jpg" class="w-100" alt="">
-                            <h3>Логотип</h3>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/Log-portfolio/design illustration t-shirt.jpg" class="w-100" alt="">
-                            <h3>Логотип</h3>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/Log-portfolio/Edge windows new 1.jpg" class="w-100" alt="">
-                            <h3>Логотип</h3>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/Log-portfolio/EDGE-windows-logo-bag.jpg" class="w-100" alt="">
-                            <h3>Логотип</h3>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/Log-portfolio/Embroidered-Logo-MockUp.jpg" class="w-100" alt="">
-                            <h3>Логотип</h3>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/Log-portfolio/Embroidered-Logo-MockUp.png" class="w-100" alt="">
-                            <h3>Логотип</h3>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/Log-portfolio/Embroidered-Logo-MockUp.png1.png" class="w-100" alt="">
-                            <h3>Логотип</h3>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/Log-portfolio/f_57056a6003e7434f.jpg" class="w-100" alt="">
-                            <h3>Логотип</h3>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/Log-portfolio/flambir.jpg" class="w-100" alt="">
-                            <h3>Логотип</h3>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/Log-portfolio/joker logo.jpg" class="w-100" alt="">
-                            <h3>Логотип</h3>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/Log-portfolio/Konstorg logo.jpg" class="w-100" alt="">
-                            <h3>Логотип</h3>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/Portfolio - Firminiy stil/firminniy-stil.1.png" class="w-100" alt="">
-                            <h3>Фирменный стиль</h3>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/Portfolio - Firminiy stil/фирменный стиль.png" class="w-100" alt="">
-                            <h3>Фирменный стиль</h3>
-                        </div>
-                    </div>
-                </div>
+                </section>
             </div>
-        </section>
-        <section class="portfolio-smm">
-            <div class="container">
-                <h2>Примеры работ SMM</h2>
-                <h3>Art Stone</h3>
-                <div class="row">
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Art Stone/1.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Art Stone/2.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Art Stone/3.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Art Stone/4.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Art Stone/5.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Art Stone/6.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Art Stone/7.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Art Stone/8.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <section class="portfolio-smm">
+                    <div class="container">
+                        <h2>Примеры работ SMM</h2>
 
-                <h3>Australian Coffee House</h3>
-                <div class="row">
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Australian Coffee House/1.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Australian Coffee House/2.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Australian Coffee House/3.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Australian Coffee House/4.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Australian Coffee House/5.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Australian Coffee House/6.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Australian Coffee House/7.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Australian Coffee House/8.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                </div>
 
-                <h3>Hansgrohe</h3>
-                <div class="row">
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Hansgrohe/1.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Hansgrohe/2.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Hansgrohe/3.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Hansgrohe/4.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Hansgrohe/5.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Hansgrohe/6.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Hansgrohe/7.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Hansgrohe/8.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Art Stone
+                                        </button>
+                                    </h5>
+                                </div>
 
-                <h3>Magic Mirror</h3>
-                <div class="row">
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Magic Mirror/1.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Magic Mirror/2.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Magic Mirror/3.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Magic Mirror/4.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Magic Mirror/5.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Magic Mirror/6.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Magic Mirror/7.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Magic Mirror/8.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                </div>
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p class="section-description">Компания Artstone производит изделия из
+                                            натурального декоративного камня (мрамор, травертин, гранит и др.)
+                                            Предложенные различные виды декоративного камня были разработаны в
+                                            уникальной мастерской и не зря по праву
+                                            считаются уникальным.</p>
+                                        <div class="row">
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Art Stone/1.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Art Stone/2.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Art Stone/3.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Art Stone/4.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Art Stone/5.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Art Stone/6.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Art Stone/7.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Art Stone/8.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo">
+                                            Australian Coffee House
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p class="section-description">Кофе из Австралии!
+                                            Знаменитая Австралийская кофейня в Ташкенте на улице Садика Азимова 44.
 
-                <h3>Rolling Night</h3>
-                <div class="row">
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Rolling Night/1.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Rolling Night/2.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Rolling Night/3.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Rolling Night/4.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Rolling Night/5.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Rolling Night/6.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Rolling Night/7.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Rolling Night/8.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                </div>
+                                            Даже самый взыскательный кофеман найдет у нас кофе по вкусу, наша кофейня
+                                            предлагает 13 видов
+                                            высококачественного кофе. Также из нашего меню сэндвичей и десертов вы
+                                            сможете выбрать тот,
+                                            который подходит именно вам.
+                                        </p>
+                                        <div class="row">
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Australian Coffee House/1.jpg" class="w-100"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Australian Coffee House/2.jpg" class="w-100"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Australian Coffee House/3.jpg" class="w-100"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Australian Coffee House/4.jpg" class="w-100"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Australian Coffee House/5.jpg" class="w-100"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Australian Coffee House/6.jpg" class="w-100"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Australian Coffee House/7.jpg" class="w-100"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Australian Coffee House/8.jpg" class="w-100"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                            Hansgrohe
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p class="section-description">«Hansgrohe» это превосходное немецкое качество,
+                                            красивый дизайн,
+                                            функциональность и комфорт, инновационные технологии для повышения
+                                            качества жизни в ванной комнате и на кухне. </p>
+                                        <div class="row">
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Hansgrohe/1.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Hansgrohe/2.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Hansgrohe/3.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Hansgrohe/4.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Hansgrohe/5.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Hansgrohe/6.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Hansgrohe/7.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Hansgrohe/8.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingFor">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseFor" aria-expanded="false"
+                                            aria-controls="collapseFor">
+                                            Magic Mirror
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseFor" class="collapse" aria-labelledby="headingFor"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p class="section-description">Художественный витраж - это произведение
+                                            искусства и его изготовление позволяет воплощать
+                                            в жизнь сложные задумки и идеи из хрупкого стекла.
+                                        </p>
+                                        <div class="row">
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Magic Mirror/1.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Magic Mirror/2.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Magic Mirror/3.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Magic Mirror/4.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Magic Mirror/5.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Magic Mirror/6.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Magic Mirror/7.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Magic Mirror/8.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingFive">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseFive" aria-expanded="false"
+                                            aria-controls="collapseFive">
+                                            Rolling Night
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p class="section-description">Большой роликовый каток для взрослых и детей, с
+                                            отличным ровным покрытием.
+                                            Много музыки, веселая атмосфера и отличное настроение :) </p>
+                                        <div class="row">
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Rolling Night/1.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Rolling Night/2.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Rolling Night/3.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Rolling Night/4.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Rolling Night/5.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Rolling Night/6.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Rolling Night/7.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Rolling Night/8.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
 
-                <h3>Uberture</h3>
-                <div class="row">
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Uberture/1.jpg" class="w-100" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingSix">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseSix" aria-expanded="false"
+                                            aria-controls="collapseSix">
+                                            Uberture
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+
+                                        <p class="section-description">Интерьерные двери "Uberture (Убертюре)" с
+                                            покрытием эко-шпон,
+                                            отлично подойдут для офиса и квартиры с современным дизайном и впишутся в
+                                            городской,
+                                            загородный дизайн помещений.</p>
+                                        <div class="row">
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Uberture/1.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Uberture/2.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Uberture/3.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Uberture/4.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Uberture/5.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Uberture/6.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Uberture/7.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-md-4 col-lg-3">
+                                                <div class="portfolio-box d-flex flex-column align-items-center">
+                                                    <img src="images/smm/Uberture/8.jpg" class="w-100" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Uberture/2.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Uberture/3.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Uberture/4.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Uberture/5.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Uberture/6.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Uberture/7.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-md-4 col-lg-3">
-                        <div class="portfolio-box d-flex flex-column align-items-center">
-                            <img src="images/smm/Портфолио - Uberture/8.jpg" class="w-100" alt="">
-                        </div>
-                    </div>
-                </div>
+                </section>
             </div>
-        </section>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+        </div>
+
+
     </main>
 
     <footer>
@@ -427,15 +596,9 @@
 
     <script src="bootstrap/js/jquery.js"></script>
     <script src="bootstrap/js/popper.js"></script>
-    <script src="fontawesome/js/all.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script async src="scripts/wow.min.js"></script>
 
-    <!-- <script>
-        $(document).ready(function () {
-            $('head').append('<link rel="stylesheet" href="styles/animate.css">');
-            new WOW().init();
-        })
-    </script> -->
 </body>
 
 </html>
